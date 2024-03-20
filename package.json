@@ -1,0 +1,9 @@
+{
+ "private": true,
+ "workspaces": [
+  "packages/*"
+ ],
+ "dependencies": {
+  "@ignite-ui/eslint-config": "*"
+ }
+}
