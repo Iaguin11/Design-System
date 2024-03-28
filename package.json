@@ -3,7 +3,14 @@
  "workspaces": [
   "packages/*"
  ],
+ "scripts": {
+  "dev": "turbo run dev --parallel",
+  "build": "turbo run build"
+ },
  "dependencies": {
   "@ignite-ui/eslint-config": "*"
+ },
+ "devDependencies": {
+  "turbo": "^1.13.0"
  }
 }

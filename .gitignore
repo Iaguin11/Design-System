@@ -1,1 +1,4 @@
+node_module
+dist
+.turbo
 node_modules
